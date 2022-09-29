@@ -18,6 +18,14 @@ router.render = (req, res) => {
 
   //conversations middleware
   if (
+    path.includes("conversation") &&
+    (method === "POST" || method === "PATCH")
+  ) {
+    io.emit("conversation", {
+      data: res.locals.data,
+    });
+  }
+  if (
     path.includes("conversations") &&
     (method === "POST" || method === "PATCH")
   ) {
