@@ -97,6 +97,44 @@
       "id": 16
     }
   ],
-  "conversations": [],
-  "messages": []
+  "conversations": [
+    {
+      "participants": "shreekantaray@gmail.com-test1@gmail.com",
+      "users": [
+        {
+          "email": "shreekantaray@gmail.com",
+          "name": "kanto",
+          "id": 16
+        },
+        {
+          "email": "test1@gmail.com",
+          "password": "$2a$10$z6Fa244tsq4ePap29ILTBe6e2KMArX8W7IHSY1uZkzn5yXSdE5Y1e",
+          "name": "Test1",
+          "id": 1
+        }
+      ],
+      "message": "hi",
+      "timestamp": 1673018871982,
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "shreekantaray@gmail.com",
+        "name": "kanto",
+        "id": 16
+      },
+      "receiver": {
+        "email": "test1@gmail.com",
+        "password": "$2a$10$z6Fa244tsq4ePap29ILTBe6e2KMArX8W7IHSY1uZkzn5yXSdE5Y1e",
+        "name": "Test1",
+        "id": 1
+      },
+      "message": "hi",
+      "timestamp": 1673018871982,
+      "id": 1
+    }
+  ]
 }
